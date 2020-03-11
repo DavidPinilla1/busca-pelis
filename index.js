@@ -24,6 +24,17 @@ document.querySelector('.buscarInput')
         // .then(res=>{
         //     const peliculas =res.data.results;
         //     peliculasContainer.innerHTML='';
+        //     const baseImgUrl= 'https://image.tmdb.org/t/p/w185';
+        //     peliculas.forEach(pelicula=>{
+        //         const imagen = pelicula.poster_path ? `
+        //         <img src="${baseImgUrl}${pelicula.poster_path}" alt="">`:''
+        //         peliculasContainer.innerHTML+=`
+        //         <div class="pelicula">
+        //             <h3 class="title">${pelicula.title}
+        //         </h3>
+        //         ${imagen}
+        //     </div>`
+        //     })
         // })
     }
 })
